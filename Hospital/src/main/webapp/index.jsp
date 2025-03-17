@@ -485,56 +485,146 @@ input[type="submit"]:hover {
 	<br>
 
 	<div class="container p-2">
-		<p id="doctor" class="text-center fs-2" style="font-weight: bold;">Top
-			Specialist Doctors</p>
+  <p id="doctor" class="text-center fs-2" style="font-weight: bold;">Top Specialist Doctors</p>
 
-		<div class="row">
-			<div class="col-md-3">
-				<div class="card paint-card">
-					<div class="card-body text-center">
-						<img src="img/doctor1.jpg" width="250px" height="300px">
-						<p class="fs-bold fs-5" style="font-weight: bold;">Dr. Naresh
-							Trehan</p>
-						<p class="fs-7">( Cardiovascular and Cardiothoracic Surgery
-							Specialist )</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="card paint-card">
-					<div class="card-body text-center">
-						<img src="img/doctor2.jpg" width="250px" height="300px">
-						<p class="fs-bold fs-5" style="font-weight: bold;">Dr. Anthony
-							Fauci</p>
-						<p class="fs-7">( Immunology and Infectious Diseases
-							Specialist )</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="card paint-card">
-					<div class="card-body text-center">
-						<img src="img/doctor3.jpg" width="250px" height="300px">
-						<p class="fs-bold fs-5" style="font-weight: bold;">Dr. Aparna
-							Hegde</p>
-						<p class="fs-7">( Obstetrician and Gynecologist OB/GYNs
-							Specialist )</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="card paint-card">
-					<div class="card-body text-center">
-						<img src="img/doctor4.jpg" width="250px" height="300px">
-						<p class="fs-bold fs-5" style="font-weight: bold;">Dr.
-							Jennifer Ashton</p>
-						<p class="fs-7">( Psychiatrist and Orthopedic Surgeon
-							Specialist )</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="row">
+    <!-- Doctor 1 -->
+    <div class="col-md-3">
+      <div class="card paint-card">
+        <div class="card-body text-center">
+          <img src="img/doctor1.jpg" width="250px" height="300px" data-bs-toggle="modal" data-bs-target="#doctorModal1" alt="Dr. Naresh Trehan">
+          <p class="fs-bold fs-5" style="font-weight: bold;">Dr. Naresh Trehan</p>
+          <p class="fs-7">(Cardiovascular and Cardiothoracic Surgery Specialist)</p>
+        </div>
+      </div>
+    </div>
+			<!-- Doctor 2 -->
+    <div class="col-md-3">
+      <div class="card paint-card">
+        <div class="card-body text-center">
+          <img src="img/doctor2.jpg" width="250px" height="300px" data-bs-toggle="modal" data-bs-target="#doctorModal2" alt="Dr. Anthony Fauci">
+          <p class="fs-bold fs-5" style="font-weight: bold;">Dr. Anthony Fauci</p>
+          <p class="fs-7">(Immunology and Infectious Diseases Specialist)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doctor 3 -->
+    <div class="col-md-3">
+      <div class="card paint-card">
+        <div class="card-body text-center">
+          <img src="img/doctor3.jpg" width="250px" height="300px" data-bs-toggle="modal" data-bs-target="#doctorModal3" alt="Dr. Aparna Hegde">
+          <p class="fs-bold fs-5" style="font-weight: bold;">Dr. Aparna Hegde</p>
+          <p class="fs-7">(Obstetrician and Gynecologist OB/GYNs Specialist)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doctor 4 -->
+    <div class="col-md-3">
+      <div class="card paint-card">
+        <div class="card-body text-center">
+          <img src="img/doctor4.jpg" width="250px" height="300px" data-bs-toggle="modal" data-bs-target="#doctorModal4" alt="Dr. Jennifer Ashton">
+          <p class="fs-bold fs-5" style="font-weight: bold;">Dr. Jennifer Ashton</p>
+          <p class="fs-7">(Psychiatrist and Orthopedic Surgeon Specialist)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Doctor 1 -->
+<div class="modal fade" id="doctorModal1" tabindex="-1" aria-labelledby="doctorModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="doctorModalLabel1">Dr. Naresh Trehan</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/doctor1.jpg" class="img-fluid mb-3" alt="Dr. Naresh Trehan">
+        <p><strong>Specialization:</strong> Cardiovascular and Cardiothoracic Surgery</p>
+        <p><strong>Experience:</strong> Over 30 years of experience in heart surgeries and specialized care.</p>
+        <p><strong>Education:</strong> MD, MBBS from AIIMS, India.</p>
+        <p><strong>Clinic Address:</strong> Heart Care Clinic, New York City, USA.</p>
+        <p><strong>Contact:</strong> +1 (800) 123-4567</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Doctor 2 -->
+<div class="modal fade" id="doctorModal2" tabindex="-1" aria-labelledby="doctorModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="doctorModalLabel2">Dr. Anthony Fauci</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/doctor2.jpg" class="img-fluid mb-3" alt="Dr. Anthony Fauci">
+        <p><strong>Specialization:</strong> Immunology and Infectious Diseases</p>
+        <p><strong>Experience:</strong> Leading expert on infectious diseases with over 40 years of experience.</p>
+        <p><strong>Education:</strong> MD from Cornell University, New York, USA.</p>
+        <p><strong>Clinic Address:</strong> NIH, Bethesda, Maryland, USA.</p>
+        <p><strong>Contact:</strong> +1 (800) 987-6543</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Doctor 3 -->
+<div class="modal fade" id="doctorModal3" tabindex="-1" aria-labelledby="doctorModalLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="doctorModalLabel3">Dr. Aparna Hegde</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/doctor3.jpg" class="img-fluid mb-3" alt="Dr. Aparna Hegde">
+        <p><strong>Specialization:</strong> Obstetrics and Gynecology</p>
+        <p><strong>Experience:</strong> Over 20 years of experience in women's health and childbirth.</p>
+        <p><strong>Education:</strong> MD, Obstetrics & Gynecology from AIIMS, India.</p>
+        <p><strong>Clinic Address:</strong> Women's Health Clinic, Mumbai, India.</p>
+        <p><strong>Contact:</strong> +91 22 1234 5678</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Doctor 4 -->
+<div class="modal fade" id="doctorModal4" tabindex="-1" aria-labelledby="doctorModalLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="doctorModalLabel4">Dr. Jennifer Ashton</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="img/doctor4.jpg" class="img-fluid mb-3" alt="Dr. Jennifer Ashton">
+        <p><strong>Specialization:</strong> Psychiatry and Orthopedic Surgery</p>
+        <p><strong>Experience:</strong> Over 25 years of expertise in psychiatry and orthopedic care.</p>
+        <p><strong>Education:</strong> MD, Psychiatry from Harvard University, USA.</p>
+        <p><strong>Clinic Address:</strong> ABC Hospital, Los Angeles, USA.</p>
+        <p><strong>Contact:</strong> +1 (310) 123-4567</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	<br>
 	<br>
 	
