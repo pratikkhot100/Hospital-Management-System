@@ -91,14 +91,14 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
    
 ## Create MySQL Database
 
-## Create the Database in MYSQL Workbench
+### Create the Database in MYSQL Workbench
 
   1. Open MySQL and run the following SQL commands to set up the Hospital database**
 
 CREATE DATABASE Hospital;
 USE Hospital;
 
-## Create Tables
+### Create Tables
 
   2. Run the following SQL commands to create the necessary tables**
 
@@ -137,7 +137,7 @@ USE Hospital;
           Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
 
-## Insert Example Data:
+### Insert Example Data:
 
   3. Insert sample data into the users table
    
