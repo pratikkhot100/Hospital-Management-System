@@ -89,6 +89,9 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
    ```bash
    git clone https://github.com/pratikkhot100/Hospital-Management-System.git
 
+
+###Create MySQL Database
+
 ##Create the Database in MYSQL Workbench
 
   1. Open MySQL and run the following SQL commands to set up the Hospital database**
