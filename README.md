@@ -10,8 +10,10 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **Reports**: Generate detailed reports based on patient records, appointments, and billing information.
 
 ## Technologies Used
-
+- **Forntend**: Html, CSS, Javascripet, Bootstrap.
 - **Java**: Core language for application development.
+- **JSP**: Used for view rendering, i.e., displaying dynamic content to users Works as the frontend part of the MVC (Model-View-Controller) pattern Can embed Java code within HTML for fetching and displaying data dynamically.
+- **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
 - **JDBC**: Java Database Connectivity for connecting to the database.
 - **MySQL**: Used for database management.
 - **Swing/JavaFX**: For creating a graphical user interface (GUI).
