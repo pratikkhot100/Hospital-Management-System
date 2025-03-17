@@ -13,56 +13,56 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 1. User Authentication & Security:
 
-Secure login & signup with password hashing.
-Proper session management to prevent unauthorized access.
-Users are redirected to the dashboard.jsp upon successful login.
-Logout feature to destroy sessions and prevent session hijacking.
+  Secure login & signup with password hashing.
+  Proper session management to prevent unauthorized access.
+  Users are redirected to the dashboard.jsp upon successful login.
+  Logout feature to destroy sessions and prevent session hijacking.
 
 
 2. Role-Based Access Control:
 
-Admin: Can manage doctors, view and manage all appointments, View all user Data and access reports, Make Appointments for User, Add new Doctor in Database.
-Doctors: Can view their scheduled appointments and View all docort list.
-Patients: Can book appointments.
+  Admin: Can manage doctors, view and manage all appointments, View all user Data and access reports, Make Appointments for User, Add new Doctor in Database.
+  Doctors: Can view their scheduled appointments and View all docort list.
+  Patients: Can book appointments.
 
 
 3. Appointment Booking & Management:
 
-Patients can schedule appointments based on doctor availability.
-Doctors receive notifications of new appointments.
-Admins can monitor all appointments.
+  Patients can schedule appointments based on doctor availability.
+  Doctors receive notifications of new appointments.
+  Admins can monitor all appointments.
 
 
 4. Secure & Structured Development:
 
-JSP & Servlets for dynamic web page rendering.
-MVC Architecture for better separation of concerns.
-MySQL Database to store users, appointments, and doctors securely.
-Prepared Statements to prevent SQL Injection.
-Session timeout & auto logout for security.
+  JSP & Servlets for dynamic web page rendering.
+  MVC Architecture for better separation of concerns.
+  MySQL Database to store users, appointments, and doctors securely.
+  Prepared Statements to prevent SQL Injection.
+  Session timeout & auto logout for security.
 
 
 5. User-Friendly Dashboard (dashboard.jsp)
 
-Displays upcoming appointments.
-Shows doctor availability.
-Allows easy navigation for patients, doctors, and admins.
+  Displays upcoming appointments.
+  Shows doctor availability.
+  Allows easy navigation for patients, doctors, and admins.
 
 
 **Technology Stack**
 
-Frontend: HTML, CSS, JavaScript, Bootstrap
-Backend: Java, JSP, Servlets, JDBC Java Database Connectivity
-Database: MySQL
-Security Measures: Password hashing, session handling, input validation
+  Frontend: HTML, CSS, JavaScript, Bootstrap
+  Backend: Java, JSP, Servlets, JDBC Java Database Connectivity
+  Database: MySQL
+  Security Measures: Password hashing, session handling, input validation
 
-Security Enhancements:
+**Security Enhancements**
 
-Session Management: Only dashboard.jsp is accessible after login; users are redirected if they try to bypass authentication.
-Password Encryption: User passwords are hashed before storing in the database.
-Input Validation: Prevents SQL Injection and XSS attacks.
-CSRF Protection: Tokens used to prevent cross-site request forgery.
-This project ensures a secure, scalable, and efficient hospital appointment management system with robust session and authentication handling.
+  Session Management: Only dashboard.jsp is accessible after login; users are redirected if they try to bypass authentication.
+  Password Encryption: User passwords are hashed before storing in the database.
+  Input Validation: Prevents SQL Injection and XSS attacks.
+  CSRF Protection: Tokens used to prevent cross-site request forgery.
+  This project ensures a secure, scalable, and efficient hospital appointment management system with robust session and authentication handling.
 
 ## Technologies Used
 - **Frontend**: Html, CSS, Javascripet, Bootstrap.
