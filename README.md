@@ -102,7 +102,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
   2. Run the following SQL commands to create the necessary tables**
 
-     CREATE TABLE appointment (
+    CREATE TABLE appointment (
         id INT AUTO_INCREMENT PRIMARY KEY,
         Full_Name VARCHAR(100) NOT NULL,
         Email_id VARCHAR(100) NOT NULL,
