@@ -88,3 +88,64 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
    ```bash
    git clone https://github.com/pratikkhot100/Hospital-Management-System.git
+
+##Create the Database in MYSQL Workbench
+
+  1. Open MySQL and run the following SQL commands to set up the Hospital database**
+
+CREATE DATABASE Hospital;
+USE Hospital;
+
+##Create Tables
+
+  2. Run the following SQL commands to create the necessary tables**
+
+     CREATE TABLE appointment (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        Full_Name VARCHAR(100) NOT NULL,
+        Email_id VARCHAR(100) NOT NULL,
+        Mobile_no VARCHAR(15) NOT NULL,
+        Specialist VARCHAR(100) NOT NULL,
+        Appointment_date DATE,
+        Appointment_time TIME
+      );
+
+     CREATE TABLE users (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(255) NOT NULL,
+        Email_id VARCHAR(255) NOT NULL UNIQUE,
+        password VARCHAR(12) NOT NULL
+      );
+
+      CREATE TABLE doctor (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          Full_name VARCHAR(255) NOT NULL,
+          Email_id VARCHAR(255) NOT NULL UNIQUE,
+          Password VARCHAR(12) NOT NULL,
+          Mobile_no VARCHAR(12) NOT NULL UNIQUE,
+          Specialization VARCHAR(255) NOT NULL,
+          Registration_date DATE
+         );
+
+      CREATE TABLE registration (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          Full_name VARCHAR(255) NOT NULL,
+          Email_id VARCHAR(255) NOT NULL UNIQUE,
+          password VARCHAR(12) NOT NULL,
+          Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+
+##nsert Example Data:
+
+  3. Insert sample data into the users table
+   
+       INSERT INTO users (username, Email_id, password)
+       VALUES 
+       ('Pratik Khot', 'pratikkhot@company.com', 'pratik123');
+
+  4. You can also view data from tables using
+
+        SELECT * FROM doctor;
+        SELECT * FROM registration;
+        SELECT * FROM appointment;
+
