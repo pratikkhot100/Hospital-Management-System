@@ -1,13 +1,12 @@
 # Hospital Management System
 
-This **Hospital Management System (HMS)** is a Java-based application designed to streamline the management of various hospital operations such as patient management, doctor management, appointment scheduling, billing, and report generation.
+This **Hospital Management System (HMS)** is a Java-based application designed to streamline the management of various hospital operations such as patient management, doctor management, appointment scheduling, and report generation.
 
 ## Features
 
 - **Patient Management**: Add, update, delete, and view patient records.
 - **Doctor Management**: Manage doctors' information, including specialties and schedules.
 - **Appointment Scheduling**: Book, view, modify, and cancel patient appointments with doctors.
-- **Billing**: Create and manage patient billing records for hospital services.
 - **Reports**: Generate detailed reports based on patient records, appointments, and billing information.
 
 ## Technologies Used
