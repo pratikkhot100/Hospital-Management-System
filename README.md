@@ -95,8 +95,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
   1. Open MySQL and run the following SQL commands to set up the Hospital database**
 
-  CREATE DATABASE Hospital;
-  USE Hospital;
+    CREATE DATABASE Hospital;
+    USE Hospital;
 
 ### Create Tables
 
