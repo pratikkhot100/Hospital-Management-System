@@ -151,3 +151,12 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
     SELECT * FROM registration;
     SELECT * FROM appointment;
 
+ ## Contact Information
+
+  GitHub: https://github.com/pratikkhot100
+
+  LinkedIn: https://www.linkedin.com/in/pratikkhot01
+
+  Email: pratikkhot1207@gmail.com
+
+
