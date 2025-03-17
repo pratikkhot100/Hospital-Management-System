@@ -141,13 +141,13 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
   3. Insert sample data into the users table
    
-       INSERT INTO users (username, Email_id, password)
-       VALUES 
-       ('Pratik Khot', 'pratikkhot@company.com', 'pratik123');
+    INSERT INTO users (username, Email_id, password)
+    VALUES 
+    ('Pratik Khot', 'pratikkhot@company.com', 'pratik123');
 
   4. You can also view data from tables using
 
-        SELECT * FROM doctor;
-        SELECT * FROM registration;
-        SELECT * FROM appointment;
+    SELECT * FROM doctor;
+    SELECT * FROM registration;
+    SELECT * FROM appointment;
 
