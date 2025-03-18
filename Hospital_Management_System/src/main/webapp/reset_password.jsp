@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ include file="conn.jsp" %>
 <!DOCTYPE html>
-<html>
+<html lang="en" oncontextmenu="return false">
 <head>
     <meta charset="UTF-8">
     <title>Reset Password</title>
