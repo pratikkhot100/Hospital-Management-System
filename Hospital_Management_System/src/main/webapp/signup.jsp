@@ -3,7 +3,7 @@
 <%@page isELIgnored="false"%>
 <%@include file="conn.jsp"%>
 <!DOCTYPE html>
-<html>
+<html lang="en" oncontextmenu="return false">
 <head>
 <meta charset="UTF-8">
 <title>Sign Up</title>
