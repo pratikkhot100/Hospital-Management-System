@@ -298,17 +298,6 @@ tr:hover {
                 </div>
             </div>
         </div>
-
-        <!-- Total Patients Card -->
-        <div class="col-md-3 col-sm-6 mb-4">
-            <div class="card">
-                <div class="card-header">Total Patients</div>
-                <div class="card-body">
-                    <h3 class="card-title"><%= totalPatients %></h3>
-                    <button onclick="window.location.href='ViewAppointmentDoctor.jsp'">View Patients</button>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
