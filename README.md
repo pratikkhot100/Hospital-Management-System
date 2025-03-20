@@ -8,7 +8,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **Doctor Management**: Manage doctors' information, including specialties and schedules.
 - **Appointment Scheduling**: Book, view, modify, and cancel patient appointments with doctors.
 - **Reports**: Generate detailed reports based on patient records, appointments.
-- 
+  
 **Technology Stack**
 
   Frontend: HTML, CSS, JavaScript, Bootstrap
