@@ -226,7 +226,7 @@ button:hover {
                 foundDoctor = true;
                 out.println("<tr>");
                 out.println("<td>" + rs.getInt("id") + "</td>");
-                out.println("<td>" + rs.getString("Full_name") + "</td>");
+                out.println("<td>" +"Dr. "+rs.getString("Full_name") + "</td>");
                 out.println("<td>" + rs.getString("Email_id") + "</td>");
                 out.println("<td>" + rs.getString("Specialization") + "</td>");
                 out.println("</tr>");
