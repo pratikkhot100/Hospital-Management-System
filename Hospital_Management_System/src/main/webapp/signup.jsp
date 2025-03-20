@@ -80,7 +80,9 @@ body {
 						String Email = request.getParameter("email");
 						String Password = request.getParameter("password");
 
-						if (fullname == null || fullname.trim().isEmpty()) {
+						if ((fullname == null || fullname.trim().isEmpty()) && 
+							    (Email != null && Email.trim().endsWith("@gmail.com")) && 
+							    (Password != null && !Password.trim().isEmpty())) {
 							//   out.println("<script>alert('Full Name is required');</script>");
 							return;
 						}
