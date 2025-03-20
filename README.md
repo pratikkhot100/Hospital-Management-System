@@ -11,13 +11,13 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   
 ## Technology Stack
 
--**Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
   
--**Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity
+- **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity
   
--**Database**: MySQL
+- **Database**: MySQL
   
--**Security Measures**: Password hashing, session handling, input validation
+- **Security Measures**: Password hashing, session handling, input validation
   
 ## Technologies Used
 - **Frontend**: Html, CSS, Javascripet, Bootstrap.
