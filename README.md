@@ -158,6 +158,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
     SELECT * FROM doctor;
     SELECT * FROM registration;
     SELECT * FROM appointment;
+    SELECT * FROM contact_submissions;
 
  ## Contact Information
 
