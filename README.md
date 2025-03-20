@@ -1,4 +1,4 @@
-# Hospital Management System
+![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/09e3cecf-8ae0-4e53-a606-e0eb9b3a62d4)# Hospital Management System
 
 This **Hospital Management System (HMS)** is a Java-based application designed to streamline the management of various hospital operations such as patient management, doctor management, appointment scheduling, and report generation hospital management system. Integrated a role-based authentication system with three-login part Admin, Doctor and User to ensure secure access and data privacy.
 
@@ -78,6 +78,34 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 ### Home Page
 
 ![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
+
+![Screenshot 2025-03-20 175153](https://github.com/user-attachments/assets/594f3dc6-8d52-4f5e-9ece-220011bc4129)
+
+![Screenshot 2025-03-20 175230](https://github.com/user-attachments/assets/a7d4ae54-bf41-43e2-98f7-b8aba9481160)
+
+![Screenshot 2025-03-20 175359](https://github.com/user-attachments/assets/d1f6cfe6-9c29-4794-806b-641b32046718)
+
+![Screenshot 2025-03-20 211209](https://github.com/user-attachments/assets/ed41195e-cb9d-4bec-bfcb-80da69a7d1ba)
+
+![Screenshot 2025-03-20 175508](https://github.com/user-attachments/assets/5a4bcb62-68cd-4f66-bdaf-b24a89e26f34)
+
+![Screenshot 2025-03-20 175531](https://github.com/user-attachments/assets/bed496af-5013-46b2-818a-a908105aee43)
+
+![Screenshot 2025-03-20 175608](https://github.com/user-attachments/assets/6a8c9925-cad7-4b2b-bb8e-fc909d4faacf)
+
+![Screenshot 2025-03-20 175632](https://github.com/user-attachments/assets/0a0717a7-4216-4eec-8961-41c61328db27)
+
+![Screenshot 2025-03-20 175754](https://github.com/user-attachments/assets/d0da90be-1003-43f9-995c-f99ec2ce2596)
+
+![Screenshot 2025-03-20 175812](https://github.com/user-attachments/assets/8ba6d599-d994-457e-a14f-8f7030c48631)
+
+![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
+
+### Role: User Login
+
+![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
+
+![Screenshot 2025-03-20 175914](https://github.com/user-attachments/assets/efef1011-31aa-4030-8625-673d57bf3c90)
 
 
 ## Installation
