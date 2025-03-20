@@ -77,7 +77,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ### Home Page
 
-![Uploading Screenshot 2025-03-20 175114.png…]()
+![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
 
 
 ## Installation
