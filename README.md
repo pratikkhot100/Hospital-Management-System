@@ -73,6 +73,12 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **MySQL**: Used for database management.
 - **Swing/JavaFX**: For creating a graphical user interface (GUI).
 - **Maven/Gradle**: Build automation (if used).
+## Images
+
+### Home Page
+
+![Uploading Screenshot 2025-03-20 175114.png…]()
+
 
 ## Installation
 
