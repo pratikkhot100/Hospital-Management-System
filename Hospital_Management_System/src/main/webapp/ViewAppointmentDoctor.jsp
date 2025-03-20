@@ -238,7 +238,7 @@
                     out.println("<td>" + fullName + "</td>");
                     out.println("<td>" + emailid + "</td>");
                     out.println("<td>" + mobileNo + "</td>");
-                    out.println("<td>" + specialist + "</td>");
+                    out.println("<td>" +"Dr. "+specialist + "</td>");
                     out.println("<td>" + appointmentDate + "</td>");
                     out.println("<td>" + appointmentTime + "</td>");
                     out.println("</tr>");
