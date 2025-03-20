@@ -65,33 +65,45 @@ h1 {
 
 /* Table */
 table {
-    width: 100%;
+    width: 80%; /* Adjust table width */
     margin: 20px auto;
-    border-collapse: collapse;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-collapse: separate; /* Use separate borders for each cell */
+    border-spacing: 0; /* Remove the space between cells */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the table */
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
+    border-radius: 12px; /* Rounded corners for the table */
     overflow: hidden;
-    text-align: center; /* Centers content in the entire table */
+    text-align: center; /* Ensures text is centered in each cell */
+    border: 1px solid #ddd; /* Light gray border around the table */
 }
 
 th, td {
     padding: 12px;
     text-align: center; /* Centers text in each table cell */
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Border for each cell */
+    font-size: 16px; /* Adjust text size for readability */
+    background-color: #fff; /* White background for each cell */
 }
 
+/* Header Styling */
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text color for header */
+    font-weight: bold; /* Bold text in the header */
 }
 
+/* Alternate row styling */
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #f9f9f9; /* Lighter gray for even rows */
 }
 
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+/* Hover effect for table rows */
 tr:hover {
-    background-color: #ddd;
+    background-color: #f1f1f1; /* Light gray background when hovering */
 }
 
 /* Centering content in the table wrapper */
@@ -100,14 +112,15 @@ tr:hover {
     max-height: 400px;
     margin: 0 auto;
     border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Rounded corners for the table wrapper */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Ensures the wrapper content is centered */
 }
 
+
 /* Container */
 .container {
-    max-width: 90%;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -225,7 +238,7 @@ button:hover {
             while (rs.next()) {
                 foundDoctor = true;
                 out.println("<tr>");
-                out.println("<td>" + rs.getString("Full_name") + "</td>");
+                out.println("<td>" +"Dr. "+rs.getString("Full_name") + "</td>");
                 out.println("<td>" + rs.getString("Specialization") + "</td>");
                 out.println("</tr>");
             }
