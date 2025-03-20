@@ -36,7 +36,11 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ![Screenshot 2025-03-20 175531](https://github.com/user-attachments/assets/bed496af-5013-46b2-818a-a908105aee43)
 
+- **User, Doctor and Admin Login here and we view own dashboard**
+
 ![Screenshot 2025-03-20 175608](https://github.com/user-attachments/assets/6a8c9925-cad7-4b2b-bb8e-fc909d4faacf)
+
+- **Only User Can Registration. Doctor Registration add by Admin in there own dashboard**
 
 ![Screenshot 2025-03-20 175632](https://github.com/user-attachments/assets/0a0717a7-4216-4eec-8961-41c61328db27)
 
@@ -48,11 +52,18 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
 
-## Role: User Login
+## Role: User Login there Dashboard
+
+![Screenshot 2025-03-20 221438](https://github.com/user-attachments/assets/ef7bd3fd-33f1-4cd5-8806-69e99e702ee3)
+
+![Screenshot 2025-03-20 221337](https://github.com/user-attachments/assets/ca33b8a1-760c-4e28-9ac1-956957fc9b3d)
 
 ![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
 
 ![Screenshot 2025-03-20 175914](https://github.com/user-attachments/assets/efef1011-31aa-4030-8625-673d57bf3c90)
+
+## Role: Doctor Login there Dashboard
+
 
 ## Technologies Used
 - **Frontend**: Html, CSS, Javascripet, Bootstrap.
