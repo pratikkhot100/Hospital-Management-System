@@ -137,6 +137,14 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
           Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
 
+      CREATE TABLE contact_submissions (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        full_name VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL,
+        message TEXT NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+       );
+
 ### Insert Example Data:
 
   3. Insert sample data into the users table
