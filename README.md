@@ -15,15 +15,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity  
 - **Database**: MySQL 
 - **Security Measures**: Password hashing, session handling, input validation
-  
-## Technologies Used
-- **Frontend**: Html, CSS, Javascripet, Bootstrap.
-- **Java**: Core language for application development.
-- **JSP**: Used for view rendering, i.e., displaying dynamic content to users Works as the frontend part of the MVC (Model-View-Controller) pattern Can embed Java code within HTML for fetching and displaying data dynamically.
-- **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
-- **JDBC**: Java Database Connectivity for connecting to the database.
-- **MySQL**: Used for database management.
- 
+   
 ## Home Page
 
 ![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
@@ -48,7 +40,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ![Screenshot 2025-03-20 175632](https://github.com/user-attachments/assets/0a0717a7-4216-4eec-8961-41c61328db27)
 
-**User and Doctor Can Change Password**
+- **User and Doctor Can Change Password**
 
 ![Screenshot 2025-03-20 175754](https://github.com/user-attachments/assets/d0da90be-1003-43f9-995c-f99ec2ce2596)
 
@@ -61,6 +53,14 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 ![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
 
 ![Screenshot 2025-03-20 175914](https://github.com/user-attachments/assets/efef1011-31aa-4030-8625-673d57bf3c90)
+
+## Technologies Used
+- **Frontend**: Html, CSS, Javascripet, Bootstrap.
+- **Java**: Core language for application development.
+- **JSP**: Used for view rendering, i.e., displaying dynamic content to users Works as the frontend part of the MVC (Model-View-Controller) pattern Can embed Java code within HTML for fetching and displaying data dynamically.
+- **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
+- **JDBC**: Java Database Connectivity for connecting to the database.
+- **MySQL**: Used for database management.
 
 ## Key Features
 
