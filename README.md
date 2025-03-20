@@ -1,5 +1,3 @@
-![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/09e3cecf-8ae0-4e53-a606-e0eb9b3a62d4)# Hospital Management System
-
 This **Hospital Management System (HMS)** is a Java-based application designed to streamline the management of various hospital operations such as patient management, doctor management, appointment scheduling, and report generation hospital management system. Integrated a role-based authentication system with three-login part Admin, Doctor and User to ensure secure access and data privacy.
 
 ## Features
