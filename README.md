@@ -8,7 +8,60 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **Doctor Management**: Manage doctors' information, including specialties and schedules.
 - **Appointment Scheduling**: Book, view, modify, and cancel patient appointments with doctors.
 - **Reports**: Generate detailed reports based on patient records, appointments.
+- 
+**Technology Stack**
+
+  Frontend: HTML, CSS, JavaScript, Bootstrap
+  Backend: Java, JSP, Servlets, JDBC Java Database Connectivity
+  Database: MySQL
+  Security Measures: Password hashing, session handling, input validation
   
+## Technologies Used
+- **Frontend**: Html, CSS, Javascripet, Bootstrap.
+- **Java**: Core language for application development.
+- **JSP**: Used for view rendering, i.e., displaying dynamic content to users Works as the frontend part of the MVC (Model-View-Controller) pattern Can embed Java code within HTML for fetching and displaying data dynamically.
+- **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
+- **JDBC**: Java Database Connectivity for connecting to the database.
+- **MySQL**: Used for database management.
+  
+## Images
+
+### Home Page
+
+![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
+
+![Screenshot 2025-03-20 175153](https://github.com/user-attachments/assets/594f3dc6-8d52-4f5e-9ece-220011bc4129)
+
+![Screenshot 2025-03-20 214328](https://github.com/user-attachments/assets/cc069326-275b-4806-8c87-29dace2971e6)
+
+![Screenshot 2025-03-20 214344](https://github.com/user-attachments/assets/4959ffc5-aff8-46f4-a15f-add8b276a46e)
+
+![Screenshot 2025-03-20 175230](https://github.com/user-attachments/assets/a7d4ae54-bf41-43e2-98f7-b8aba9481160)
+
+![Screenshot 2025-03-20 175359](https://github.com/user-attachments/assets/d1f6cfe6-9c29-4794-806b-641b32046718)
+
+![Screenshot 2025-03-20 211209](https://github.com/user-attachments/assets/ed41195e-cb9d-4bec-bfcb-80da69a7d1ba)
+
+![Screenshot 2025-03-20 175508](https://github.com/user-attachments/assets/5a4bcb62-68cd-4f66-bdaf-b24a89e26f34)
+
+![Screenshot 2025-03-20 175531](https://github.com/user-attachments/assets/bed496af-5013-46b2-818a-a908105aee43)
+
+![Screenshot 2025-03-20 175608](https://github.com/user-attachments/assets/6a8c9925-cad7-4b2b-bb8e-fc909d4faacf)
+
+![Screenshot 2025-03-20 175632](https://github.com/user-attachments/assets/0a0717a7-4216-4eec-8961-41c61328db27)
+
+![Screenshot 2025-03-20 175754](https://github.com/user-attachments/assets/d0da90be-1003-43f9-995c-f99ec2ce2596)
+
+![Screenshot 2025-03-20 175812](https://github.com/user-attachments/assets/8ba6d599-d994-457e-a14f-8f7030c48631)
+
+![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
+
+### Role: User Login
+
+![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
+
+![Screenshot 2025-03-20 175914](https://github.com/user-attachments/assets/efef1011-31aa-4030-8625-673d57bf3c90)
+
 ## Key Features
 
 1. User Authentication & Security:
@@ -47,66 +100,6 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   Displays upcoming appointments.
   Shows doctor availability.
   Allows easy navigation for patients, doctors, and admins.
-
-
-**Technology Stack**
-
-  Frontend: HTML, CSS, JavaScript, Bootstrap
-  Backend: Java, JSP, Servlets, JDBC Java Database Connectivity
-  Database: MySQL
-  Security Measures: Password hashing, session handling, input validation
-
-**Security Enhancements**
-
-  Session Management: Only dashboard.jsp is accessible after login; users are redirected if they try to bypass authentication.
-  Password Encryption: User passwords are hashed before storing in the database.
-  Input Validation: Prevents SQL Injection and XSS attacks.
-  CSRF Protection: Tokens used to prevent cross-site request forgery.
-  This project ensures a secure, scalable, and efficient hospital appointment management system with robust session and authentication handling.
-
-## Technologies Used
-- **Frontend**: Html, CSS, Javascripet, Bootstrap.
-- **Java**: Core language for application development.
-- **JSP**: Used for view rendering, i.e., displaying dynamic content to users Works as the frontend part of the MVC (Model-View-Controller) pattern Can embed Java code within HTML for fetching and displaying data dynamically.
-- **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
-- **JDBC**: Java Database Connectivity for connecting to the database.
-- **MySQL**: Used for database management.
-- **Swing/JavaFX**: For creating a graphical user interface (GUI).
-- **Maven/Gradle**: Build automation (if used).
-## Images
-
-### Home Page
-
-![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
-
-![Screenshot 2025-03-20 175153](https://github.com/user-attachments/assets/594f3dc6-8d52-4f5e-9ece-220011bc4129)
-
-![Screenshot 2025-03-20 175230](https://github.com/user-attachments/assets/a7d4ae54-bf41-43e2-98f7-b8aba9481160)
-
-![Screenshot 2025-03-20 175359](https://github.com/user-attachments/assets/d1f6cfe6-9c29-4794-806b-641b32046718)
-
-![Screenshot 2025-03-20 211209](https://github.com/user-attachments/assets/ed41195e-cb9d-4bec-bfcb-80da69a7d1ba)
-
-![Screenshot 2025-03-20 175508](https://github.com/user-attachments/assets/5a4bcb62-68cd-4f66-bdaf-b24a89e26f34)
-
-![Screenshot 2025-03-20 175531](https://github.com/user-attachments/assets/bed496af-5013-46b2-818a-a908105aee43)
-
-![Screenshot 2025-03-20 175608](https://github.com/user-attachments/assets/6a8c9925-cad7-4b2b-bb8e-fc909d4faacf)
-
-![Screenshot 2025-03-20 175632](https://github.com/user-attachments/assets/0a0717a7-4216-4eec-8961-41c61328db27)
-
-![Screenshot 2025-03-20 175754](https://github.com/user-attachments/assets/d0da90be-1003-43f9-995c-f99ec2ce2596)
-
-![Screenshot 2025-03-20 175812](https://github.com/user-attachments/assets/8ba6d599-d994-457e-a14f-8f7030c48631)
-
-![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
-
-### Role: User Login
-
-![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
-
-![Screenshot 2025-03-20 175914](https://github.com/user-attachments/assets/efef1011-31aa-4030-8625-673d57bf3c90)
-
 
 ## Installation
 
