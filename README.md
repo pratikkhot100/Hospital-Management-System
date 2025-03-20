@@ -11,12 +11,9 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   
 ## Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript, Bootstrap
-  
-- **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity
-  
-- **Database**: MySQL
-  
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap  
+- **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity  
+- **Database**: MySQL 
 - **Security Measures**: Password hashing, session handling, input validation
   
 ## Technologies Used
@@ -26,10 +23,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
 - **JDBC**: Java Database Connectivity for connecting to the database.
 - **MySQL**: Used for database management.
-  
-## Images
-
-### Home Page
+ 
+##Home Page
 
 ![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
 
@@ -53,13 +48,15 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ![Screenshot 2025-03-20 175632](https://github.com/user-attachments/assets/0a0717a7-4216-4eec-8961-41c61328db27)
 
+**User and Doctor Can Change Password**
+
 ![Screenshot 2025-03-20 175754](https://github.com/user-attachments/assets/d0da90be-1003-43f9-995c-f99ec2ce2596)
 
 ![Screenshot 2025-03-20 175812](https://github.com/user-attachments/assets/8ba6d599-d994-457e-a14f-8f7030c48631)
 
 ![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
 
-### Role: User Login
+## Role: User Login
 
 ![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
 
