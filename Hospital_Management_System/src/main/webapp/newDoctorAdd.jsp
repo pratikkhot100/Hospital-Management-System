@@ -182,7 +182,11 @@ button:hover {
 					String date = request.getParameter("date");
 
 					// Process form data after submission
-					if (fullName != null && email != null && password != null && contactNumber != null && specialization != null) {
+					if (fullName != null && !fullName.trim().isEmpty() &&
+                                            email != null && !email.trim().isEmpty() && email.endsWith("@globalhospital.com") &&
+   					    password != null && !password.trim().isEmpty() &&
+                                            contactNumber != null && !contactNumber.trim().isEmpty() &&
+                                            specialization != null && !specialization.trim().isEmpty()) {
 						try {
 							// Check if the email already exists
 							String checkEmailQuery = "SELECT * FROM doctor WHERE Email_id = ?";
