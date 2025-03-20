@@ -291,7 +291,7 @@ tr:hover {
         <!-- Total Registrations Card -->
         <div class="col-md-3 col-sm-6 mb-4">
             <div class="card">
-                <div class="card-header">New Patient Registrations</div>
+                <div class="card-header">New User Registrations</div>
                 <div class="card-body">
                     <h3 class="card-title"><%= totalRegistrations %></h3>
                     <button onclick="window.location.href='viewSignup.jsp'">View Registrations</button>
