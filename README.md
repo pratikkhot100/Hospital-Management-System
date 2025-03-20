@@ -63,6 +63,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 ![Screenshot 2025-03-20 175812](https://github.com/user-attachments/assets/8ba6d599-d994-457e-a14f-8f7030c48631)
 
 - **Contact Us**
+  
 ![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
 
 ## Role: User Login there Dashboard
@@ -75,7 +76,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   
 ![Screenshot 2025-03-20 221337](https://github.com/user-attachments/assets/ca33b8a1-760c-4e28-9ac1-956957fc9b3d)
 
-- **User Appointment**
+- **User Appointment with User Registerd email Id**
  
 ![Screenshot 2025-03-20 175852](https://github.com/user-attachments/assets/9ebdacdf-2625-4931-9b30-1c9e0f0c3199)
 
