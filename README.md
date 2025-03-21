@@ -90,19 +90,20 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 - **Doctor Login**
  
-![Screenshot 2025-03-21 153554](https://github.com/user-attachments/assets/ba799f7f-aeaf-49b4-ab2c-c5f73deaf8fd)
+![Screenshot 2025-03-21 160233](https://github.com/user-attachments/assets/c4a9cd9c-bdc3-4596-b572-fae5bc0c7042)
 
 - **View Paitent Appointments**
-  
-![Screenshot 2025-03-21 154120](https://github.com/user-attachments/assets/3601f2fb-3173-4a66-a2c7-57730b71c6d5)
 
+![Screenshot 2025-03-21 160253](https://github.com/user-attachments/assets/0d0ed377-7cfa-421e-b903-0f2411b66eaf)
+  
 - **View  Doctors**
 
 ![Screenshot 2025-03-21 154151](https://github.com/user-attachments/assets/b4dfbdfd-8261-4fd5-bfd4-6e6ed4c5f85e)
 
 - **View User Feedback**
   
-![Screenshot 2025-03-21 155515](https://github.com/user-attachments/assets/029293d0-ca6d-4ddf-aac4-32effe243402)
+![Screenshot 2025-03-21 160337](https://github.com/user-attachments/assets/04b77ef1-a401-446d-a1e7-ed8f8fdca95c)
+
 
 
 ## Technologies Used
