@@ -112,36 +112,36 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 ![Screenshot 2025-03-21 160809](https://github.com/user-attachments/assets/fc409496-ee3e-4177-a9f8-79c603aa5ac0)
 
 - **Admin Dashboard**
-  
-  ![Screenshot 2025-03-21 160826](https://github.com/user-attachments/assets/ef158769-c50f-409a-8d37-41819bccf1b4)
+
+![Screenshot 2025-03-21 160826](https://github.com/user-attachments/assets/ef158769-c50f-409a-8d37-41819bccf1b4)
 
 - **User Registration Details**
- 
-  ![Screenshot 2025-03-21 160943](https://github.com/user-attachments/assets/a194491e-b279-4b70-a0b6-63e83149c40f)
+
+![Screenshot 2025-03-21 160943](https://github.com/user-attachments/assets/a194491e-b279-4b70-a0b6-63e83149c40f)
 
 - **Patient Details**
   
-  ![Screenshot 2025-03-21 161003](https://github.com/user-attachments/assets/03f1521a-e378-4d76-a5c4-aecc1292ef07)
+![Screenshot 2025-03-21 161003](https://github.com/user-attachments/assets/03f1521a-e378-4d76-a5c4-aecc1292ef07)
 
  - **Doctor Details**
     
-  ![Screenshot 2025-03-21 161023](https://github.com/user-attachments/assets/b587f9c3-9d26-43b0-82b6-c0943d932ff2)
+![Screenshot 2025-03-21 161023](https://github.com/user-attachments/assets/b587f9c3-9d26-43b0-82b6-c0943d932ff2)
 
 - **Doctor Registrations**
-  
-  ![Screenshot 2025-03-21 161053](https://github.com/user-attachments/assets/200b49f2-1a14-4b6b-98ca-5482456c243b)
+
+![Screenshot 2025-03-21 161053](https://github.com/user-attachments/assets/200b49f2-1a14-4b6b-98ca-5482456c243b)
 
 - **Appointment Form**
-  
-  ![Screenshot 2025-03-21 161110](https://github.com/user-attachments/assets/4fc58a65-4090-4c8d-ada7-2c66fc136bda)
+
+![Screenshot 2025-03-21 161110](https://github.com/user-attachments/assets/4fc58a65-4090-4c8d-ada7-2c66fc136bda)
 
  - **Healthcare Administration Overview**
     
-  ![Screenshot 2025-03-21 161128](https://github.com/user-attachments/assets/d2b6750c-9b3d-4fbe-976f-32848ed6fb13)
+![Screenshot 2025-03-21 161128](https://github.com/user-attachments/assets/d2b6750c-9b3d-4fbe-976f-32848ed6fb13)
 
 - **User Feedback**
- 
-  ![Screenshot 2025-03-21 161201](https://github.com/user-attachments/assets/e1cb408d-423a-4069-931e-6b4c30585129)
+
+![Screenshot 2025-03-21 161201](https://github.com/user-attachments/assets/e1cb408d-423a-4069-931e-6b4c30585129)
 
 ## Technologies Used
 - **Frontend**: Html, CSS, Javascripet, Bootstrap.
