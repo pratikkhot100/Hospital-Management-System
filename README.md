@@ -265,7 +265,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
   3. Insert sample data into the users table
    
-    INSERT INTO users (username, Email_id, password)
+    INSERT INTO admin (username, Email_id, password)
     VALUES 
     ('Pratik Khot', 'pratikkhot@company.com', 'pratik123');
 
