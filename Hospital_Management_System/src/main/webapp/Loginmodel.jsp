@@ -24,7 +24,7 @@ if (email != null && password != null) {
 		ResultSet rsDoctor = psmtDoctor.executeQuery();
 
 		// Check admin
-		String queryAdmin = "SELECT * FROM users WHERE Email_id = ? AND password = ?";
+		String queryAdmin = "SELECT * FROM admin WHERE Email_id = ? AND password = ?";
 		PreparedStatement psmtAdmin = conn.prepareStatement(queryAdmin);
 		psmtAdmin.setString(1, email); // Corrected line
 		psmtAdmin.setString(2, password); // Corrected line
