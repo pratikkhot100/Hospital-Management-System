@@ -1,28 +1,28 @@
-# Hospital Management System
+# 🏥 Hospital Management System
 
 This **Hospital Management System (HMS)** is a Java-based application designed to streamline the management of various hospital operations such as patient management, doctor management, appointment scheduling, and report generation hospital management system. Integrated a role-based authentication system with three-login part Admin, Doctor and User to ensure secure access and data privacy.
 
 ---
 
-## Features
+## ✨ Features
 
-- **Patient Management**: Add, update, delete, and view patient records.
-- **Doctor Management**: Manage doctors' information, including specialties and schedules.
-- **Appointment Scheduling**: Book, view, modify, and cancel patient appointments with doctors.
-- **Reports**: Generate detailed reports based on patient records, appointments.
-
----
-
-## Technology Stack
-
-- **Frontend**: HTML, CSS, JavaScript, Bootstrap  
-- **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity  
-- **Database**: MySQL 
-- **Security Measures**: Password hashing, session handling, input validation
+- 🧑‍🦽 **Patient Management**: Add, update, delete, and view patient records.
+- 🧑‍⚕️ **Doctor Management**: Manage doctors' information, including specialties and schedules.
+- 📅 **Appointment Scheduling**: Book, view, modify, and cancel patient appointments with doctors.
+- 📈 **Reports**: Generate detailed reports based on patient records, appointments.
 
 ---
 
-## Home Page
+## 💻 Technology Stack
+
+- 🌐 **Frontend**: HTML, CSS, JavaScript, Bootstrap  
+- 🧠 **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity  
+- 🗃️ **Database**: MySQL 
+- 🔐 **Security Measures**: Password hashing, session handling, input validation
+
+---
+
+## 🏠 Home Page
 
 ![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
 
@@ -74,7 +74,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## Role: User Login Dashboard
+## 🙋 Role: User Login Dashboard
 
 - **User Registration**
   
@@ -94,7 +94,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## Role: Doctor Login Dashboard
+## 👨‍⚕️ Role: Doctor Login Dashboard
 
 - **Doctor Login**
  
@@ -114,7 +114,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## Role: Admin Login Dashboard
+## 🛠️ Role: Admin Login Dashboard
 
 - **Admin Login**
   
@@ -154,7 +154,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## Technologies Used
+## 🧰 Technologies Used
 - **Frontend**: Html, CSS, Javascripet, Bootstrap.
 - **Java**: Core language for application development.
 - **JSP**: Used for view rendering, i.e., displaying dynamic content to users Works as the frontend part of the MVC (Model-View-Controller) pattern Can embed Java code within HTML for fetching and displaying data dynamically.
@@ -164,7 +164,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## Key Features
+## 🔑 Key Features
 
 1. User Authentication & Security:
 
@@ -205,15 +205,15 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-### Prerequisites
+### 📋 Prerequisites
 
 1. **Java JDK**: Ensure Java is installed on your system. You can download it from the [official site](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2. **MySQL**: Install MySQL for database management. You can download it from the [official MySQL website](https://dev.mysql.com/downloads/installer/).
 3. **IDE**: Any Java IDE like IntelliJ IDEA, Eclipse, or NetBeans can be used.
 
-### Setup Instructions
+### 🛠️  Setup Instructions
 
 1. **Clone the repository**:
 
@@ -222,16 +222,16 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## MySQL Database
+## 🛢️ MySQL Database
 
-### Create the Database in MYSQL Workbench
+### 🏗️ Create the Database in MYSQL Workbench
 
   1. Open MySQL and run the following SQL commands to set up the Hospital database**
 
     CREATE DATABASE Hospital;
     USE Hospital;
 
-### Create Tables
+### 📊 Create Tables
 
   2. Run the following SQL commands to create the necessary tables**
 
@@ -280,7 +280,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-### Insert Example Data:
+### 📝 Insert Example Data:
 
   3. Insert sample data into the users table
    
@@ -297,12 +297,12 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
- ## Contact Information
+ ## 📞 Contact Information
 
-  GitHub: https://github.com/pratikkhot100
+  🐙 GitHub: https://github.com/pratikkhot100
 
-  LinkedIn: https://www.linkedin.com/in/pratikkhot01
+  💼 LinkedIn: https://www.linkedin.com/in/pratikkhot01
 
-  Email: pratikkhot1207@gmail.com
+  📧 Email: pratikkhot1207@gmail.com
 
 
