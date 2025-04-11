@@ -2,20 +2,26 @@
 
 This **Hospital Management System (HMS)** is a Java-based application designed to streamline the management of various hospital operations such as patient management, doctor management, appointment scheduling, and report generation hospital management system. Integrated a role-based authentication system with three-login part Admin, Doctor and User to ensure secure access and data privacy.
 
+---
+
 ## Features
 
 - **Patient Management**: Add, update, delete, and view patient records.
 - **Doctor Management**: Manage doctors' information, including specialties and schedules.
 - **Appointment Scheduling**: Book, view, modify, and cancel patient appointments with doctors.
 - **Reports**: Generate detailed reports based on patient records, appointments.
-  
+
+---
+
 ## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap  
 - **Backend**: Java, JSP, Servlets, JDBC Java Database Connectivity  
 - **Database**: MySQL 
 - **Security Measures**: Password hashing, session handling, input validation
-   
+
+---
+
 ## Home Page
 
 ![Screenshot 2025-03-20 175114](https://github.com/user-attachments/assets/4c3d35ae-2988-4e99-8b34-e745caabf34e)
@@ -66,6 +72,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   
 ![Screenshot 2025-03-20 175730](https://github.com/user-attachments/assets/3efbe945-b5e9-4bbd-b995-3a2c1b0ec5b6)
 
+---
 
 ## Role: User Login Dashboard
 
@@ -85,6 +92,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   
 ![Screenshot 2025-03-20 175914](https://github.com/user-attachments/assets/efef1011-31aa-4030-8625-673d57bf3c90)
 
+---
 
 ## Role: Doctor Login Dashboard
 
@@ -104,6 +112,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   
 ![Screenshot 2025-03-21 160337](https://github.com/user-attachments/assets/04b77ef1-a401-446d-a1e7-ed8f8fdca95c)
 
+---
 
 ## Role: Admin Login Dashboard
 
@@ -143,6 +152,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ![Screenshot 2025-03-21 161201](https://github.com/user-attachments/assets/e1cb408d-423a-4069-931e-6b4c30585129)
 
+---
+
 ## Technologies Used
 - **Frontend**: Html, CSS, Javascripet, Bootstrap.
 - **Java**: Core language for application development.
@@ -150,6 +161,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 - **Servlet**: Act as the controller in the MVC pattern Handle HTTP requests (e.g., login, signup, appointment booking) Process business logic, interact with the database, and forward responses to JSP pages.
 - **JDBC**: Java Database Connectivity for connecting to the database.
 - **MySQL**: Used for database management.
+
+---
 
 ## Key Features
 
@@ -190,6 +203,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
   Shows doctor availability.
   Allows easy navigation for patients, doctors, and admins.
 
+---
+
 ## Installation
 
 ### Prerequisites
@@ -204,7 +219,9 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
    ```bash
    git clone https://github.com/pratikkhot100/Hospital-Management-System.git
-   
+
+---
+
 ## MySQL Database
 
 ### Create the Database in MYSQL Workbench
@@ -261,6 +278,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
        );
 
+---
+
 ### Insert Example Data:
 
   3. Insert sample data into the users table
@@ -275,6 +294,8 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
     SELECT * FROM registration;
     SELECT * FROM appointment;
     SELECT * FROM contact_submissions;
+
+---
 
  ## Contact Information
 
