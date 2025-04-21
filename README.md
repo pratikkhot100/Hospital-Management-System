@@ -220,78 +220,15 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 
 ---
 
-## 🛢️ MySQL Database
+## 🗃️ ================= MySQL Database =================
 
-### 🏗️ Create the Database in MYSQL Workbench
+ STEP 1: Open MySQL Command Prompt or MySQL Workbench
 
-  1. Open MySQL and run the following SQL commands to set up the Hospital database**
+ STEP 2: Login to the administrator user of MySql:
+	 ```mysql -u <username> -p``` (Enter Password if asked)
 
-    CREATE DATABASE Hospital;
-    USE Hospital;
-
-### 📊 Create Tables
-
-  2. Run the following SQL commands to create the necessary tables**
-
-    CREATE TABLE appointment (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        Full_Name VARCHAR(100) NOT NULL,
-        Email_id VARCHAR(100) NOT NULL,
-        Mobile_no VARCHAR(15) NOT NULL,
-        Specialist VARCHAR(100) NOT NULL,
-        Appointment_date DATE,
-        Appointment_time TIME
-      );
-
-     CREATE TABLE users (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        username VARCHAR(255) NOT NULL,
-        Email_id VARCHAR(255) NOT NULL UNIQUE,
-        password VARCHAR(12) NOT NULL
-      );
-
-      CREATE TABLE doctor (
-          id INT AUTO_INCREMENT PRIMARY KEY,
-          Full_name VARCHAR(255) NOT NULL,
-          Email_id VARCHAR(255) NOT NULL UNIQUE,
-          Password VARCHAR(12) NOT NULL,
-          Mobile_no VARCHAR(12) NOT NULL UNIQUE,
-          Specialization VARCHAR(255) NOT NULL,
-          Registration_date DATE
-         );
-
-      CREATE TABLE registration (
-          id INT AUTO_INCREMENT PRIMARY KEY,
-          Full_name VARCHAR(255) NOT NULL,
-          Email_id VARCHAR(255) NOT NULL UNIQUE,
-          password VARCHAR(12) NOT NULL,
-          Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-        );
-
-      CREATE TABLE contact_submissions (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        full_name VARCHAR(255) NOT NULL,
-        email VARCHAR(255) NOT NULL,
-        message TEXT NOT NULL,
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-       );
-
----
-
-### 📝 Insert Example Data:
-
-  3. Insert sample data into the users table
-   
-    INSERT INTO admin (username, Email_id, password)
-    VALUES 
-    ('Pratik Khot', 'pratikkhot@company.com', 'pratik123');
-
-  4. You can also view data from tables using
-
-    SELECT * FROM doctor;
-    SELECT * FROM registration;
-    SELECT * FROM appointment;
-    SELECT * FROM contact_submissions;
+ STEP 3: Copy paste and execute the MySQL Query from the following file:-
+ - Run the Sql Query From this file: [MySQL Database]() 
 
 ---
 
