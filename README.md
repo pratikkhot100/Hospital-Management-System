@@ -228,7 +228,7 @@ This **Hospital Management System (HMS)** is a Java-based application designed t
 	 ```mysql -u <username> -p``` (Enter Password if asked)
 
  STEP 3: Copy paste and execute the MySQL Query from the following file:-
- - Run the Sql Query From this file: [MySQL Database]() 
+ - Run the Sql Query From this file: [MySQL Database](https://github.com/pratikkhot100/Hospital-Management-System/blob/main/mysql_database.sql) 
 
 ---
 
